@@ -1,0 +1,331 @@
+{
+    "Aichi": {
+        "capital-en": "Nagoya-shi",
+        "capital-jp": "名古屋市",
+        "en": "Aichi",
+        "jp": "愛知県",
+        "region": "Chubu"
+    },
+    "Akita": {
+        "capital-en": "Akita-shi",
+        "capital-jp": "秋田市",
+        "en": "Akita",
+        "jp": "秋田県",
+        "region": "Tohoku"
+    },
+    "Aomori": {
+        "capital-en": "Aomori-shi",
+        "capital-jp": "青森市",
+        "en": "Aomori",
+        "jp": "青森県",
+        "region": "Tohoku"
+    },
+    "Chiba": {
+        "capital-en": "Chiba-shi",
+        "capital-jp": "千葉市",
+        "en": "Chiba",
+        "jp": "千葉県",
+        "region": "Kanto"
+    },
+    "Ehime": {
+        "capital-en": "Matsuyama-shi",
+        "capital-jp": "松山市",
+        "en": "Ehime",
+        "jp": "愛媛県",
+        "region": "Shikoku"
+    },
+    "Fukui": {
+        "capital-en": "Fukui-shi",
+        "capital-jp": "福井市",
+        "en": "Fukui",
+        "jp": "福井県",
+        "region": "Chubu"
+    },
+    "Fukuoka": {
+        "capital-en": "Fukuoka-shi",
+        "capital-jp": "福岡市",
+        "en": "Fukuoka",
+        "jp": "福岡県",
+        "region": "Kyushu"
+    },
+    "Fukushima": {
+        "capital-en": "Fukushima-shi",
+        "capital-jp": "福島市",
+        "en": "Fukushima",
+        "jp": "福島県",
+        "region": "Tohoku"
+    },
+    "Gifu": {
+        "capital-en": "Gifu-shi",
+        "capital-jp": "岐阜市",
+        "en": "Gifu",
+        "jp": "岐阜県",
+        "region": "Chubu"
+    },
+    "Gunma": {
+        "capital-en": "Maebashi-shi",
+        "capital-jp": "前橋市",
+        "en": "Gunma",
+        "jp": "群馬県",
+        "region": "Kanto"
+    },
+    "Hiroshima": {
+        "capital-en": "Hiroshima-shi",
+        "capital-jp": "広島市",
+        "en": "Hiroshima",
+        "jp": "広島県",
+        "region": "Chugoku"
+    },
+    "Hokkaido": {
+        "capital-en": "Sapporo",
+        "capital-jp": "札幌市",
+        "en": "Hokkaido",
+        "jp": "北海道",
+        "region": "Hokkaido"
+    },
+    "Hyogo": {
+        "capital-en": "Kobe-shi",
+        "capital-jp": "神戸市",
+        "en": "Hyogo",
+        "jp": "兵庫県",
+        "region": "Kansai"
+    },
+    "Ibaraki": {
+        "capital-en": "Mito-shi",
+        "capital-jp": "水戸市",
+        "en": "Ibaraki",
+        "jp": "茨城県",
+        "region": "Kanto"
+    },
+    "Ishikawa": {
+        "capital-en": "Kanazawa-shi",
+        "capital-jp": "金沢市",
+        "en": "Ishikawa",
+        "jp": "石川県",
+        "region": "Chubu"
+    },
+    "Iwate": {
+        "capital-en": "Morioka-shi",
+        "capital-jp": "盛岡市",
+        "en": "Iwate",
+        "jp": "岩手県",
+        "region": "Tohoku"
+    },
+    "Kagawa": {
+        "capital-en": "Takamatsu-shi",
+        "capital-jp": "高松市",
+        "en": "Kagawa",
+        "jp": "香川県",
+        "region": "Shikoku"
+    },
+    "Kagoshima": {
+        "capital-en": "Kagoshima-shi",
+        "capital-jp": "鹿児島市",
+        "en": "Kagoshima",
+        "jp": "鹿児島県",
+        "region": "Kyushu"
+    },
+    "Kanagawa": {
+        "capital-en": "Yokohama-shi",
+        "capital-jp": "横浜市",
+        "en": "Kanagawa",
+        "jp": "神奈川県",
+        "region": "Kanto"
+    },
+    "Kochi": {
+        "capital-en": "Kochi-shi",
+        "capital-jp": "高知市",
+        "en": "Kochi",
+        "jp": "高知県",
+        "region": "Shikoku"
+    },
+    "Kumamoto": {
+        "capital-en": "Kumamoto-shi",
+        "capital-jp": "熊本市",
+        "en": "Kumamoto",
+        "jp": "熊本県",
+        "region": "Kyushu"
+    },
+    "Kyoto": {
+        "capital-en": "Kyoto-shi",
+        "capital-jp": "京都市",
+        "en": "Kyoto",
+        "jp": "京都府",
+        "region": "Kansai"
+    },
+    "Mie": {
+        "capital-en": "Tsu-shi",
+        "capital-jp": "津市",
+        "en": "Mie",
+        "jp": "三重県",
+        "region": "Kansai"
+    },
+    "Miyagi": {
+        "capital-en": "Sendai-shi",
+        "capital-jp": "仙台市",
+        "en": "Miyagi",
+        "jp": "宮城県",
+        "region": "Tohoku"
+    },
+    "Miyazaki": {
+        "capital-en": "Miyazaki-shi",
+        "capital-jp": "宮崎市",
+        "en": "Miyazaki",
+        "jp": "宮崎県",
+        "region": "Kyushu"
+    },
+    "Nagano": {
+        "capital-en": "Nagano-shi",
+        "capital-jp": "長野市",
+        "en": "Nagano",
+        "jp": "長野県",
+        "region": "Chubu"
+    },
+    "Nagasaki": {
+        "capital-en": "Nagasaki-shi",
+        "capital-jp": "長崎市",
+        "en": "Nagasaki",
+        "jp": "長崎県",
+        "region": "Kyushu"
+    },
+    "Nara": {
+        "capital-en": "Nara-shi",
+        "capital-jp": "奈良市",
+        "en": "Nara",
+        "jp": "奈良県",
+        "region": "Kansai"
+    },
+    "Niigata": {
+        "capital-en": "Niigata-shi",
+        "capital-jp": "新潟市",
+        "en": "Niigata",
+        "jp": "新潟県",
+        "region": "Chubu"
+    },
+    "Oita": {
+        "capital-en": "Oita-shi",
+        "capital-jp": "大分市",
+        "en": "Oita",
+        "jp": "大分県",
+        "region": "Kyushu"
+    },
+    "Okayama": {
+        "capital-en": "Okayama-shi",
+        "capital-jp": "岡山市",
+        "en": "Okayama",
+        "jp": "岡山県",
+        "region": "Chugoku"
+    },
+    "Okinawa": {
+        "capital-en": "Naha-shi",
+        "capital-jp": "那覇市",
+        "en": "Okinawa",
+        "jp": "沖縄県",
+        "region": "Kyushu"
+    },
+    "Osaka": {
+        "capital-en": "Osaka-shi",
+        "capital-jp": "大阪市",
+        "en": "Osaka",
+        "jp": "大阪府",
+        "region": "Kansai"
+    },
+    "Saga": {
+        "capital-en": "Saga-shi",
+        "capital-jp": "佐賀市",
+        "en": "Saga",
+        "jp": "佐賀県",
+        "region": "Kyushu"
+    },
+    "Saitama": {
+        "capital-en": "Saitama-shi",
+        "capital-jp": "埼玉市",
+        "en": "Saitama",
+        "jp": "埼玉県",
+        "region": "Kanto"
+    },
+    "Shiga": {
+        "capital-en": "Otsu-shi",
+        "capital-jp": "大津市",
+        "en": "Shiga",
+        "jp": "滋賀県",
+        "region": "Kansai"
+    },
+    "Shimane": {
+        "capital-en": "Matsue-shi",
+        "capital-jp": "松江市",
+        "en": "Shimane",
+        "jp": "島根県",
+        "region": "Chugoku"
+    },
+    "Shizuoka": {
+        "capital-en": "Shizuoka-shi",
+        "capital-jp": "静岡市",
+        "en": "Shizuoka",
+        "jp": "静岡県",
+        "region": "Chubu"
+    },
+    "Tochigi": {
+        "capital-en": "Utsunomiya-shi",
+        "capital-jp": "宇都宮市",
+        "en": "Tochigi",
+        "jp": "栃木県",
+        "region": "Kanto"
+    },
+    "Tokushima": {
+        "capital-en": "Tokushima-shi",
+        "capital-jp": "徳島市",
+        "en": "Tokushima",
+        "jp": "徳島県",
+        "region": "Shikoku"
+    },
+    "Tokyo": {
+        "capital-en": "Tokyo",
+        "capital-jp": "東京",
+        "en": "Tokyo",
+        "jp": "東京都",
+        "region": "Kanto"
+    },
+    "Tottori": {
+        "capital-en": "Tottori-shi",
+        "capital-jp": "鳥取市",
+        "en": "Tottori",
+        "jp": "鳥取県",
+        "region": "Chugoku"
+    },
+    "Toyama": {
+        "capital-en": "Toyama-shi",
+        "capital-jp": "富山市",
+        "en": "Toyama",
+        "jp": "富山県",
+        "region": "Chubu"
+    },
+    "Wakayama": {
+        "capital-en": "Wakayama-shi",
+        "capital-jp": "和歌山市",
+        "en": "Wakayama",
+        "jp": "和歌山県",
+        "region": "Kansai"
+    },
+    "Yamagata": {
+        "capital-en": "Yamagata-shi",
+        "capital-jp": "山形市",
+        "en": "Yamagata",
+        "jp": "山形県",
+        "region": "Tohoku"
+    },
+    "Yamaguchi": {
+        "capital-en": "Yamaguchi-shi",
+        "capital-jp": "山口市",
+        "en": "Yamaguchi",
+        "jp": "山口県",
+        "region": "Chugoku"
+    },
+    "Yamanashi": {
+        "capital-en": "Kofu-shi",
+        "capital-jp": "甲府市",
+        "en": "Yamanashi",
+        "jp": "山梨県",
+        "region": "Chubu"
+    }
+}
