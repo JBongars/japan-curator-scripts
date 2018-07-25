@@ -63,6 +63,7 @@ cities.forEach(city => {
             break;
     }
 
+    city.city_en = city.city_en.charAt(0).toUpperCase() + city.city_en.substr(1);
     let cityEnArr = city.city_en.split('-');
     if (cityEnArr[cityEnArr.length-1] == 'ku') {
         cityEnArr.splice(cityEnArr.length-1, 1);
