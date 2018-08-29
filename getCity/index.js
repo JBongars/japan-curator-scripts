@@ -97,6 +97,35 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
     })
 });
 
+// ===========================================================
+// By City - change city name ending to shi, ku, cho, mura
+// ===========================================================
+// let newAppendStr = 'shi';
+// cities.forEach(city => {
+//     switch (city.city_ja_full.charAt(city.city_ja_full.length - 1)) {
+//         case "市":
+//             newAppendStr = 'shi';
+//             break;
+//         case "町":
+//             newAppendStr = 'cho';
+//             break;
+//         case "村":
+//             newAppendStr = 'mura';
+//             break;
+//         case "区":
+//             newAppendStr = 'ku';
+//             break;
+//     }
+
+//     city.city_en = city.city_en.charAt(0).toUpperCase() + city.city_en.substr(1);
+//     let cityEnArr = city.city_en.split('-');
+//     if (cityEnArr[cityEnArr.length-1] == 'ku') {
+//         cityEnArr.splice(cityEnArr.length-1, 1);
+//         city.city_en = cityEnArr.join('-');
+//     }
+
+//     city.city_full_en = city.city_en + '-' + newAppendStr;
+// });
 
 
 
