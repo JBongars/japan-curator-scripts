@@ -50,8 +50,8 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
 
         //japanese
         prefecture_jp: data.prefecture_jp || "",
-        city_jp: (data.city_district_jp || "").split(' ')[0] || "",
-        district_jp: (data.city_district_jp || "").split(' ')[1] || "",
+        city_jp: data.city_district_jp.split(' ')[0],
+        district_jp: data.city_district_jp.split(' ')[1] || "",
         township_jp: data.township_jp || ""
     }
 
