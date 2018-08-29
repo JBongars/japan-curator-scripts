@@ -55,7 +55,7 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
         township_jp: data.township_jp || ""
     }
 
-    //there was litterally no cleaner way I thought how to do this...
+    //there was literally no cleaner way I thought how to do this...
     let gen = genAddressObj(elem);
     if(typeof city_prefecture[elem.prefecture_en] == 'undefined') {
         city_prefecture[elem.prefecture_en] = 
