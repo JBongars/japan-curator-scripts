@@ -4,66 +4,114 @@
 // ===========================================================
 
 const fs = require('fs');
-// const file = fs.createWriteStream('./result.tsv');
+const path = require('path');
+const csvProcessor = require('fast-csv'); //csv processor
+const exec = require('child_process').exec; //terminal bash
+const _ = require('lodash');
 
-let saveJSON = (fileName, json, cb) => fs.writeFile(fileName, JSON.stringify(json), 'utf8', cb);
+
+let getCSV = (file, cb) => new Promise((resolve, reject) => {
+    fs.createReadStream(file).pipe(csvProcessor({ headers: true }))
+        .on("data", cb)
+        .on("end", resolve)
+});
+
+let saveJSON = (fileName, json, pretty=false) => new Promise((resolve, reject) => fs.writeFile(fileName, JSON.stringify(json, null, pretty ? 4 : undefined), 'utf8', resolve));
 let sterilizeString = (a) => {
     if(a == null) return 'null';
     if(typeof a == 'undefined') return 'undefined'
     else return a.replace(/[^a-zA-Z]/g, '').toLowerCase();
 }
+
+let capFirstLetter = s => s.charAt(0).toUpperCase() + s.substr(1).toLowerCase();
 let compareString = (a, b) => sterilizeString(a) == sterilizeString(b);
+let matchStr = (s, reg) => Array.isArray(s.match(reg)) ? s.match(reg)[0] : "";
 
-const prefectures = require('./prefecture.json');
-const cities = require('./cities.json');
 
-//terminal bash
-const exec = require('child_process').exec;
+let city_prefecture = {};
+let postal_code = [];
 
-let result = {};
-let result_unordered = {};
+let genAddressObj = (elem) => (type, obj) => Object.assign(obj, { 
+    postal_code: elem.postal_code,
+    [type + '_en']: elem[type + '_en'], 
+    [type + '_jp']: elem[type + '_jp']
+});
 
-// ===========================================================
-// By City - adds 'undefined field'
-// ===========================================================
-// cities.forEach(city => {
-//     let key = city.prefecture_en;
-//     if(typeof key !== 'string') key = 'Miscellaneous';
-//     if(typeof result_unordered[key] == 'undefined'){
-//         result_unordered[key] = Object.assign({}, prefectures[key]);
-//         result_unordered[key].cities = [];
-//     }
-//     delete city.prefecture_en;
-//     result_unordered[key].cities.push(city);
-// });
+getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
+    
+    let elem = {
+        postal_code: data.postal_code,
+        
+        //english
+        prefecture_en: capFirstLetter(data.prefecture_en || ""),
+        city_en: capFirstLetter(matchStr(data.city_district_en, /.*(?= SHI)/g)),
+        district_en: capFirstLetter(matchStr(data.city_district_en, /.*(?= KU)/g)),
+        township_en: capFirstLetter(data.township_en || ""),
 
-// Object.keys(prefectures).filter(key => typeof result_unordered[key] == 'undefined').forEach(key => result_unordered[key] = prefectures[key])
+        //japanese
+        prefecture_jp: data.prefecture_jp || "",
+        city_jp: (data.city_district_jp || "").split(' ')[0] || "",
+        district_jp: (data.city_district_jp || "").split(' ')[1] || "",
+        township_jp: data.township_jp || ""
+    }
 
-// Object.keys(result_unordered).sort().forEach(key => {
-//     result[key] = result_unordered[key];
-// })
+    //there was litterally no cleaner way I thought how to do this...
+    let gen = genAddressObj(elem);
+    if(typeof city_prefecture[elem.prefecture_en] == 'undefined') {
+        city_prefecture[elem.prefecture_en] = 
+            gen('prefecture', {
+                cities: gen('city', {
+                    districts: gen('disctrict', {}),
+                    townships: gen('township', {})
+        })})
+
+    } else {
+        if(typeof city_prefecture[elem.prefecture_en] == 'undefined') city_prefecture[elem.prefecture_en] = {}
+        if(!Array.isArray(city_prefecture[elem.prefecture_en].cities)) city_prefecture[elem.prefecture_en].cities = [];
+        let city_i = city_prefecture[elem.prefecture_en].cities.findIndex(i => i.city_jp == elem.city_jp)
+
+        if(city_i < 0){
+            city_prefecture[elem.prefecture_en].cities.push(gen('city', { districts: gen('district', { townships: gen('township', {})})}))
+        } else {
+            if(!Array.isArray(city_prefecture[elem.prefecture_en].cities[city_i].districts)) city_prefecture[elem.prefecture_en].cities[city_i].districts = [];
+            if(!Array.isArray(city_prefecture[elem.prefecture_en].cities[city_i].townships)) city_prefecture[elem.prefecture_en].cities[city_i].townships = [];
+
+            if(city_prefecture[elem.prefecture_en].cities[city_i].districts.findIndex(i => i.district_jp == elem.district_jp) < 0){
+                city_prefecture[elem.prefecture_en].cities[city_i].districts.push(gen('district', {}))
+            }
+            if(city_prefecture[elem.prefecture_en].cities[city_i].townships.findIndex(i => i.township_jp == elem.township_jp) < 0){
+                city_prefecture[elem.prefecture_en].cities[city_i].townships.push(gen('township', {}))
+            }
+        }
+    }
+    postal_code.push(data)
+
+
+}).then(() => {
+    Promise.all([
+        saveJSON('./getCity/city_prefecture.json', city_prefecture),
+        saveJSON('./getCity/postal_code.json', postal_code),
+
+    ]).then(() => {
+        console.log('done!');
+    })
+});
+
+
+
 
 
 // ===========================================================
 // By Prefecture - missing cities
 // ===========================================================
 
-Object.keys(prefectures).sort().forEach(key => {
-    result[key] = prefectures[key];
-    result[key].cities = cities.
-        filter(elem => compareString(elem.prefecture_en, key)).
-        sort((a, b) => a.city_en > b.city).
-        map(elem => {
-            delete elem.prefecture_en;
-            return elem;
-        });
-})
-
-
-// ===========================================================
-// END OF PROGRAM
-// ===========================================================
-
-saveJSON('./getCity/result.json', result, () => {
-     console.log('done!');
-})
+// Object.keys(prefectures).sort().forEach(key => {
+//     result[key] = prefectures[key];
+//     result[key].cities = cities.
+//         filter(elem => compareString(elem.prefecture_en, key)).
+//         sort((a, b) => a.city_en > b.city).
+//         map(elem => {
+//             delete elem.prefecture_en;
+//             return elem;
+//         });
+// })
