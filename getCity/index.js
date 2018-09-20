@@ -47,6 +47,8 @@ let genAddressObj = (elem) => (type, obj) => Object.assign(obj,
     }
 );
 
+tempVar = true
+
 getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
     
     let elem = {
@@ -56,14 +58,19 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
         prefecture_en: capFirstLetter(data.prefecture_en || ""),
         city_en: capFirstLetter(matchStr(data.city_district_en, /.*(?= SHI)/g)),
         district_en: capFirstLetter(matchStr(data.city_district_en, /.*(?= KU)/g)),
-        township_en: capFirstLetter(data.township_en || ""),
+        // township_en: capFirstLetter(data.township_en || ""),
 
         //japanese
         prefecture_jp: data.prefecture_jp || "",
         city_jp: data.city_district_jp.split(' ')[0],
         district_jp: data.city_district_jp.split(' ')[1] || "",
-        township_jp: data.township_jp || ""
+        // township_jp: data.township_jp || ""
     }
+
+    // if(tempVar){
+    //     console.log('elem is: ', elem);
+    //     tempVar = false;
+    // }
 
     //there was literally no cleaner way I thought how to do this...
     let gen = genAddressObj(elem);
@@ -72,26 +79,27 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
             gen('prefecture', {
                 cities: gen('city', {
                     districts: gen('disctrict', {}),
-                    townships: gen('township', {})
+                    // townships: gen('township', {})
         })})
 
     } else {
-        if(typeof city_prefecture[elem.prefecture_en] == 'undefined') city_prefecture[elem.prefecture_en] = {}
         if(!Array.isArray(city_prefecture[elem.prefecture_en].cities)) city_prefecture[elem.prefecture_en].cities = [];
         let city_i = city_prefecture[elem.prefecture_en].cities.findIndex(i => i.city_jp == elem.city_jp)
 
         if(city_i < 0){
-            city_prefecture[elem.prefecture_en].cities.push(gen('city', { districts: gen('district', { townships: gen('township', {})})}))
+            // city_prefecture[elem.prefecture_en].cities.push(gen('city', { districts: gen('district', { townships: gen('township', {})})}))
+            city_prefecture[elem.prefecture_en].cities.push(gen('city', { districts: gen('district', {}) }));            
+            // city_prefecture[elem.prefecture_en].cities.push(gen('city', {}));            
         } else {
             if(!Array.isArray(city_prefecture[elem.prefecture_en].cities[city_i].districts)) city_prefecture[elem.prefecture_en].cities[city_i].districts = [];
-            if(!Array.isArray(city_prefecture[elem.prefecture_en].cities[city_i].townships)) city_prefecture[elem.prefecture_en].cities[city_i].townships = [];
+            // if(!Array.isArray(city_prefecture[elem.prefecture_en].cities[city_i].townships)) city_prefecture[elem.prefecture_en].cities[city_i].townships = [];
 
-            if(city_prefecture[elem.prefecture_en].cities[city_i].districts.findIndex(i => i.district_jp == elem.district_jp) < 0){
+            if(elem.district_jp && city_prefecture[elem.prefecture_en].cities[city_i].districts.findIndex(i => i.district_jp == elem.district_jp) < 0){
                 city_prefecture[elem.prefecture_en].cities[city_i].districts.push(gen('district', {}))
             }
-            if(city_prefecture[elem.prefecture_en].cities[city_i].townships.findIndex(i => i.township_jp == elem.township_jp) < 0){
-                city_prefecture[elem.prefecture_en].cities[city_i].townships.push(gen('township', {}))
-            }
+            // if(city_prefecture[elem.prefecture_en].cities[city_i].townships.findIndex(i => i.township_jp == elem.township_jp) < 0){
+            //     city_prefecture[elem.prefecture_en].cities[city_i].townships.push(gen('township', {}))
+            // }
         }
     }
     postal_code.push(data)
@@ -100,7 +108,7 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
 }).then(() => {
     Promise.all([
         saveJSON('./getCity/city_prefecture.json', city_prefecture),
-        saveJSON('./getCity/city_prefecture_sample.json', sliceObj(city_prefecture, 1, 2)),
+        saveJSON('./getCity/city_prefecture_sample.json', sliceObj(city_prefecture, 10, 11)),
         saveJSON('./getCity/postal_code.json', postal_code),
 
     ]).then(() => {
