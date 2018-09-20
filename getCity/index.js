@@ -31,11 +31,12 @@ let matchStr = (s, reg) => Array.isArray(s.match(reg)) ? s.match(reg)[0] : "";
 let city_prefecture = {};
 let postal_code = [];
 
-let genAddressObj = (elem) => (type, obj) => Object.assign(obj, { 
-    postal_code: elem.postal_code,
-    [type + '_en']: elem[type + '_en'], 
-    [type + '_jp']: elem[type + '_jp']
-});
+let genAddressObj = (elem) => (type, obj) => Object.assign(obj, 
+    type == 'prefecture' ? { } : { postal_code: elem.postal_code }, { 
+        [type + '_en']: elem[type + '_en'], 
+        [type + '_jp']: elem[type + '_jp']
+    }
+);
 
 getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
     
