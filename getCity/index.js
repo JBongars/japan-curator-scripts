@@ -23,6 +23,15 @@ let sterilizeString = (a) => {
     else return a.replace(/[^a-zA-Z]/g, '').toLowerCase();
 }
 
+let sliceObj = (obj, start=0, end=false) => {
+    end = end || Object.keys(obj).length;
+    result = {}
+    Object.keys(obj).slice(start, end).forEach(key => {
+        result[key] = obj[key];
+    })
+    return result;
+}
+
 let capFirstLetter = s => s.charAt(0).toUpperCase() + s.substr(1).toLowerCase();
 let compareString = (a, b) => sterilizeString(a) == sterilizeString(b);
 let matchStr = (s, reg) => Array.isArray(s.match(reg)) ? s.match(reg)[0] : "";
@@ -91,6 +100,7 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
 }).then(() => {
     Promise.all([
         saveJSON('./getCity/city_prefecture.json', city_prefecture),
+        saveJSON('./getCity/city_prefecture_sample.json', sliceObj(city_prefecture, 1, 2)),
         saveJSON('./getCity/postal_code.json', postal_code),
 
     ]).then(() => {
