@@ -40,75 +40,65 @@ let matchStr = (s, reg) => Array.isArray(s.match(reg)) ? s.match(reg)[0] : "";
 let city_prefecture = {};
 let postal_code = [];
 
-let genAddressObj = (elem) => (type, obj) => Object.assign(obj, 
-    type == 'prefecture' ? { } : { postal_code: elem.postal_code }, { 
-        [type + '_en']: elem[type + '_en'], 
-        [type + '_jp']: elem[type + '_jp']
-    }
-);
-
-tempVar = true
 
 getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
+
+    let city_d = data.city_district_en.split(' ');
     
-    let elem = {
+    let item = {
         postal_code: data.postal_code,
         
         //english
-        prefecture_en: capFirstLetter(data.prefecture_en || ""),
-        city_en: capFirstLetter(matchStr(data.city_district_en, /.*(?= SHI)/g)),
-        district_en: capFirstLetter(matchStr(data.city_district_en, /.*(?= KU)/g)),
+        prefecture_en: capFirstLetter(data.prefecture_en.split(' ')[0] || ""),
+        city_en: capFirstLetter(matchStr(data.city_district_en, /.*(?= SHI|GUN)/gi)),
+        city_type_en: data.city_district_en.split(' ')[1].toUpperCase(),
+        district_en: capFirstLetter(data.city_district_en.split(' ').splice(2).join(' ')),
         // township_en: capFirstLetter(data.township_en || ""),
 
         //japanese
         prefecture_jp: data.prefecture_jp || "",
         city_jp: data.city_district_jp.split(' ')[0],
-        district_jp: data.city_district_jp.split(' ')[1] || "",
+        district_jp: data.city_district_jp.split('　')[1] || "",
         // township_jp: data.township_jp || ""
     }
 
-    // if(tempVar){
-    //     console.log('elem is: ', elem);
-    //     tempVar = false;
-    // }
-
-    //there was literally no cleaner way I thought how to do this...
-    let gen = genAddressObj(elem);
-    if(typeof city_prefecture[elem.prefecture_en] == 'undefined') {
-        city_prefecture[elem.prefecture_en] = 
-            gen('prefecture', {
-                cities: gen('city', {
-                    districts: gen('disctrict', {}),
-                    // townships: gen('township', {})
-        })})
-
-    } else {
-        if(!Array.isArray(city_prefecture[elem.prefecture_en].cities)) city_prefecture[elem.prefecture_en].cities = [];
-        let city_i = city_prefecture[elem.prefecture_en].cities.findIndex(i => i.city_jp == elem.city_jp)
-
-        if(city_i < 0){
-            // city_prefecture[elem.prefecture_en].cities.push(gen('city', { districts: gen('district', { townships: gen('township', {})})}))
-            city_prefecture[elem.prefecture_en].cities.push(gen('city', { districts: gen('district', {}) }));            
-            // city_prefecture[elem.prefecture_en].cities.push(gen('city', {}));            
-        } else {
-            if(!Array.isArray(city_prefecture[elem.prefecture_en].cities[city_i].districts)) city_prefecture[elem.prefecture_en].cities[city_i].districts = [];
-            // if(!Array.isArray(city_prefecture[elem.prefecture_en].cities[city_i].townships)) city_prefecture[elem.prefecture_en].cities[city_i].townships = [];
-
-            if(elem.district_jp && city_prefecture[elem.prefecture_en].cities[city_i].districts.findIndex(i => i.district_jp == elem.district_jp) < 0){
-                city_prefecture[elem.prefecture_en].cities[city_i].districts.push(gen('district', {}))
-            }
-            // if(city_prefecture[elem.prefecture_en].cities[city_i].townships.findIndex(i => i.township_jp == elem.township_jp) < 0){
-            //     city_prefecture[elem.prefecture_en].cities[city_i].townships.push(gen('township', {}))
-            // }
+    if(Object.keys(city_prefecture).findIndex(elem => elem == item.prefecture_en) < 0){
+        city_prefecture[item.prefecture_en] = {
+            prefecture_en: item.prefecture_en,
+            prefecture_jp: item.prefecture_jp,
+            cities: []
         }
     }
+
+    if(item.city_en){
+        if(city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.city_en) < 0){
+            city_prefecture[item.prefecture_en].cities.push({
+                city_en: item.city_en,
+                city_type_en: item.city_type_en,
+                city_jp: item.city_jp,
+                districts: []
+            })
+        }
+        // allow only 'ku' and not 'mura'
+        if(item.district_en && new RegExp(/(?= ku)/gi).test(item.district_en)){
+            if(city_prefecture[item.prefecture_en].cities.find(elem => elem.city_en == item.city_en).districts.findIndex(elem => elem.district_en == item.district_en) < 0){
+                let index = city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.city_en);
+                city_prefecture[item.prefecture_en].cities[index].districts.push({
+                    district_en: item.district_en,
+                    district_jp: item.district_jp
+                })
+            }
+        }
+    }
+
     postal_code.push(data)
 
 
 }).then(() => {
     Promise.all([
         saveJSON('./getCity/city_prefecture.json', city_prefecture),
-        saveJSON('./getCity/city_prefecture_sample.json', sliceObj(city_prefecture, 10, 11)),
+        saveJSON('./getCity/city_prefecture_sample.json', sliceObj(city_prefecture, 10, 11), true),
+        saveJSON('./getCity/city_prefecture_tokyo.json', city_prefecture['Tokyo'], true),
         saveJSON('./getCity/postal_code.json', postal_code),
 
     ]).then(() => {

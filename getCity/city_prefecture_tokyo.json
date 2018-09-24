@@ -1,0 +1,168 @@
+{
+    "prefecture_en": "Tokyo",
+    "prefecture_jp": "東京都",
+    "cities": [
+        {
+            "city_en": "Hachioji",
+            "city_type_en": "SHI",
+            "city_jp": "八王子市",
+            "districts": []
+        },
+        {
+            "city_en": "Tachikawa",
+            "city_type_en": "SHI",
+            "city_jp": "立川市",
+            "districts": []
+        },
+        {
+            "city_en": "Musashino",
+            "city_type_en": "SHI",
+            "city_jp": "武蔵野市",
+            "districts": []
+        },
+        {
+            "city_en": "Mitaka",
+            "city_type_en": "SHI",
+            "city_jp": "三鷹市",
+            "districts": []
+        },
+        {
+            "city_en": "Ome",
+            "city_type_en": "SHI",
+            "city_jp": "青梅市",
+            "districts": []
+        },
+        {
+            "city_en": "Fuchu",
+            "city_type_en": "SHI",
+            "city_jp": "府中市",
+            "districts": []
+        },
+        {
+            "city_en": "Akishima",
+            "city_type_en": "SHI",
+            "city_jp": "昭島市",
+            "districts": []
+        },
+        {
+            "city_en": "Chofu",
+            "city_type_en": "SHI",
+            "city_jp": "調布市",
+            "districts": []
+        },
+        {
+            "city_en": "Machida",
+            "city_type_en": "SHI",
+            "city_jp": "町田市",
+            "districts": []
+        },
+        {
+            "city_en": "Koganei",
+            "city_type_en": "SHI",
+            "city_jp": "小金井市",
+            "districts": []
+        },
+        {
+            "city_en": "Kodaira",
+            "city_type_en": "SHI",
+            "city_jp": "小平市",
+            "districts": []
+        },
+        {
+            "city_en": "Hino",
+            "city_type_en": "SHI",
+            "city_jp": "日野市",
+            "districts": []
+        },
+        {
+            "city_en": "Higashimurayama",
+            "city_type_en": "SHI",
+            "city_jp": "東村山市",
+            "districts": []
+        },
+        {
+            "city_en": "Kokubunji",
+            "city_type_en": "SHI",
+            "city_jp": "国分寺市",
+            "districts": []
+        },
+        {
+            "city_en": "Kunitachi",
+            "city_type_en": "SHI",
+            "city_jp": "国立市",
+            "districts": []
+        },
+        {
+            "city_en": "Fussa",
+            "city_type_en": "SHI",
+            "city_jp": "福生市",
+            "districts": []
+        },
+        {
+            "city_en": "Komae",
+            "city_type_en": "SHI",
+            "city_jp": "狛江市",
+            "districts": []
+        },
+        {
+            "city_en": "Higashiyamato",
+            "city_type_en": "SHI",
+            "city_jp": "東大和市",
+            "districts": []
+        },
+        {
+            "city_en": "Kiyose",
+            "city_type_en": "SHI",
+            "city_jp": "清瀬市",
+            "districts": []
+        },
+        {
+            "city_en": "Higashikurume",
+            "city_type_en": "SHI",
+            "city_jp": "東久留米市",
+            "districts": []
+        },
+        {
+            "city_en": "Musashimurayama",
+            "city_type_en": "SHI",
+            "city_jp": "武蔵村山市",
+            "districts": []
+        },
+        {
+            "city_en": "Tama",
+            "city_type_en": "SHI",
+            "city_jp": "多摩市",
+            "districts": []
+        },
+        {
+            "city_en": "Inagi",
+            "city_type_en": "SHI",
+            "city_jp": "稲城市",
+            "districts": []
+        },
+        {
+            "city_en": "Hamura",
+            "city_type_en": "SHI",
+            "city_jp": "羽村市",
+            "districts": []
+        },
+        {
+            "city_en": "Akiruno",
+            "city_type_en": "SHI",
+            "city_jp": "あきる野市",
+            "districts": []
+        },
+        {
+            "city_en": "Nishitokyo",
+            "city_type_en": "SHI",
+            "city_jp": "西東京市",
+            "districts": []
+        },
+        {
+            "city_en": "Nishitama ",
+            "city_type_en": "GUN",
+            "city_jp": "西多摩郡　瑞穂町",
+            "districts": []
+        }
+    ]
+}
