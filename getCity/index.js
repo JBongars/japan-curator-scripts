@@ -64,8 +64,8 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
 
     if(Object.keys(city_prefecture).findIndex(elem => elem == item.prefecture_en) < 0){
         city_prefecture[item.prefecture_en] = {
-            prefecture_en: item.prefecture_en,
-            prefecture_jp: item.prefecture_jp,
+            en: item.prefecture_en,
+            jp: item.prefecture_jp,
             cities: []
         }
     }
@@ -74,8 +74,8 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
         if(city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.city_en) < 0){
             city_prefecture[item.prefecture_en].cities.push({
                 city_en: item.city_en,
-                city_type_en: item.city_type_en,
-                city_jp: item.city_jp,
+                city_ja: item.city_jp,
+                type_en: item.city_type_en,
                 districts: []
             })
         }
@@ -85,7 +85,7 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
                 let index = city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.city_en);
                 city_prefecture[item.prefecture_en].cities[index].districts.push({
                     district_en: item.district_en,
-                    district_jp: item.district_jp
+                    district_ja: item.district_jp
                 })
             }
         }

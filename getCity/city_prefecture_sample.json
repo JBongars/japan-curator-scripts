@@ -1,335 +1,335 @@
 {
     "Saitama": {
-        "prefecture_en": "Saitama",
-        "prefecture_jp": "埼玉県",
+        "en": "Saitama",
+        "jp": "埼玉県",
         "cities": [
             {
                 "city_en": "Saitama",
-                "city_type_en": "SHI",
-                "city_jp": "さいたま市　西区",
+                "city_ja": "さいたま市　西区",
+                "type_en": "SHI",
                 "districts": [
                     {
                         "district_en": "Nishi ku",
-                        "district_jp": "西区"
+                        "district_ja": "西区"
                     },
                     {
                         "district_en": "Kita ku",
-                        "district_jp": "北区"
+                        "district_ja": "北区"
                     },
                     {
                         "district_en": "Omiya ku",
-                        "district_jp": "大宮区"
+                        "district_ja": "大宮区"
                     },
                     {
                         "district_en": "Minuma ku",
-                        "district_jp": "見沼区"
+                        "district_ja": "見沼区"
                     },
                     {
                         "district_en": "Chuo ku",
-                        "district_jp": "中央区"
+                        "district_ja": "中央区"
                     },
                     {
                         "district_en": "Sakura ku",
-                        "district_jp": "桜区"
+                        "district_ja": "桜区"
                     },
                     {
                         "district_en": "Urawa ku",
-                        "district_jp": "浦和区"
+                        "district_ja": "浦和区"
                     },
                     {
                         "district_en": "Minami ku",
-                        "district_jp": "南区"
+                        "district_ja": "南区"
                     },
                     {
                         "district_en": "Midori ku",
-                        "district_jp": "緑区"
+                        "district_ja": "緑区"
                     },
                     {
                         "district_en": "Iwatsuki ku",
-                        "district_jp": "岩槻区"
+                        "district_ja": "岩槻区"
                     }
                 ]
             },
             {
                 "city_en": "Kawagoe",
-                "city_type_en": "SHI",
-                "city_jp": "川越市",
+                "city_ja": "川越市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Kumagaya",
-                "city_type_en": "SHI",
-                "city_jp": "熊谷市",
+                "city_ja": "熊谷市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Kawaguchi",
-                "city_type_en": "SHI",
-                "city_jp": "川口市",
+                "city_ja": "川口市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Gyoda",
-                "city_type_en": "SHI",
-                "city_jp": "行田市",
+                "city_ja": "行田市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Chichibu",
-                "city_type_en": "SHI",
-                "city_jp": "秩父市",
+                "city_ja": "秩父市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Tokorozawa",
-                "city_type_en": "SHI",
-                "city_jp": "所沢市",
+                "city_ja": "所沢市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Hanno",
-                "city_type_en": "SHI",
-                "city_jp": "飯能市",
+                "city_ja": "飯能市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Kazo",
-                "city_type_en": "SHI",
-                "city_jp": "加須市",
+                "city_ja": "加須市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Honjo",
-                "city_type_en": "SHI",
-                "city_jp": "本庄市",
+                "city_ja": "本庄市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Higashimatsuyama",
-                "city_type_en": "SHI",
-                "city_jp": "東松山市",
+                "city_ja": "東松山市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Kasukabe",
-                "city_type_en": "SHI",
-                "city_jp": "春日部市",
+                "city_ja": "春日部市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Sayama",
-                "city_type_en": "SHI",
-                "city_jp": "狭山市",
+                "city_ja": "狭山市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Hanyu",
-                "city_type_en": "SHI",
-                "city_jp": "羽生市",
+                "city_ja": "羽生市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Konosu",
-                "city_type_en": "SHI",
-                "city_jp": "鴻巣市",
+                "city_ja": "鴻巣市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Fukaya",
-                "city_type_en": "SHI",
-                "city_jp": "深谷市",
+                "city_ja": "深谷市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Ageo",
-                "city_type_en": "SHI",
-                "city_jp": "上尾市",
+                "city_ja": "上尾市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Soka",
-                "city_type_en": "SHI",
-                "city_jp": "草加市",
+                "city_ja": "草加市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Koshigaya",
-                "city_type_en": "SHI",
-                "city_jp": "越谷市",
+                "city_ja": "越谷市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Warabi",
-                "city_type_en": "SHI",
-                "city_jp": "蕨市",
+                "city_ja": "蕨市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Toda",
-                "city_type_en": "SHI",
-                "city_jp": "戸田市",
+                "city_ja": "戸田市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Iruma",
-                "city_type_en": "SHI",
-                "city_jp": "入間市",
+                "city_ja": "入間市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Asaka",
-                "city_type_en": "SHI",
-                "city_jp": "朝霞市",
+                "city_ja": "朝霞市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Shiki",
-                "city_type_en": "SHI",
-                "city_jp": "志木市",
+                "city_ja": "志木市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Wako",
-                "city_type_en": "SHI",
-                "city_jp": "和光市",
+                "city_ja": "和光市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Niiza",
-                "city_type_en": "SHI",
-                "city_jp": "新座市",
+                "city_ja": "新座市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Okegawa",
-                "city_type_en": "SHI",
-                "city_jp": "桶川市",
+                "city_ja": "桶川市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Kuki",
-                "city_type_en": "SHI",
-                "city_jp": "久喜市",
+                "city_ja": "久喜市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Kitamoto",
-                "city_type_en": "SHI",
-                "city_jp": "北本市",
+                "city_ja": "北本市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Yashio",
-                "city_type_en": "SHI",
-                "city_jp": "八潮市",
+                "city_ja": "八潮市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Fujimi",
-                "city_type_en": "SHI",
-                "city_jp": "富士見市",
+                "city_ja": "富士見市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Misato",
-                "city_type_en": "SHI",
-                "city_jp": "三郷市",
+                "city_ja": "三郷市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Hasuda",
-                "city_type_en": "SHI",
-                "city_jp": "蓮田市",
+                "city_ja": "蓮田市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Sakado",
-                "city_type_en": "SHI",
-                "city_jp": "坂戸市",
+                "city_ja": "坂戸市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Satte",
-                "city_type_en": "SHI",
-                "city_jp": "幸手市",
+                "city_ja": "幸手市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Tsurugashima",
-                "city_type_en": "SHI",
-                "city_jp": "鶴ヶ島市",
+                "city_ja": "鶴ヶ島市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Hidaka",
-                "city_type_en": "SHI",
-                "city_jp": "日高市",
+                "city_ja": "日高市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Yoshikawa",
-                "city_type_en": "SHI",
-                "city_jp": "吉川市",
+                "city_ja": "吉川市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Fujimino",
-                "city_type_en": "SHI",
-                "city_jp": "ふじみ野市",
+                "city_ja": "ふじみ野市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Shiraoka",
-                "city_type_en": "SHI",
-                "city_jp": "白岡市",
+                "city_ja": "白岡市",
+                "type_en": "SHI",
                 "districts": []
             },
             {
                 "city_en": "Kitaadachi ",
-                "city_type_en": "GUN",
-                "city_jp": "北足立郡　伊奈町",
+                "city_ja": "北足立郡　伊奈町",
+                "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Iruma ",
-                "city_type_en": "GUN",
-                "city_jp": "入間郡　三芳町",
+                "city_ja": "入間郡　三芳町",
+                "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Hiki ",
-                "city_type_en": "GUN",
-                "city_jp": "比企郡　滑川町",
+                "city_ja": "比企郡　滑川町",
+                "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Chichibu ",
-                "city_type_en": "GUN",
-                "city_jp": "秩父郡　横瀬町",
+                "city_ja": "秩父郡　横瀬町",
+                "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Kodama ",
-                "city_type_en": "GUN",
-                "city_jp": "児玉郡　美里町",
+                "city_ja": "児玉郡　美里町",
+                "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Osato ",
-                "city_type_en": "GUN",
-                "city_jp": "大里郡　寄居町",
+                "city_ja": "大里郡　寄居町",
+                "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Minamisaitama ",
-                "city_type_en": "GUN",
-                "city_jp": "南埼玉郡　宮代町",
+                "city_ja": "南埼玉郡　宮代町",
+                "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Kitakatsushika ",
-                "city_type_en": "GUN",
-                "city_jp": "北葛飾郡　杉戸町",
+                "city_ja": "北葛飾郡　杉戸町",
+                "type_en": "GUN",
                 "districts": []
             }
         ]
