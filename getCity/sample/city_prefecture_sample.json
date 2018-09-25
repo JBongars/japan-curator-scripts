@@ -6,331 +6,1872 @@
             {
                 "city_en": "Saitama",
                 "city_ja": "さいたま市",
-                "type_en": "SHI",
-                "districts": [
-                    {
-                        "district_en": "Nishi ku",
-                        "district_ja": "西区"
-                    },
-                    {
-                        "district_en": "Kita ku",
-                        "district_ja": "北区"
-                    },
-                    {
-                        "district_en": "Omiya ku",
-                        "district_ja": "大宮区"
-                    },
-                    {
-                        "district_en": "Minuma ku",
-                        "district_ja": "見沼区"
-                    },
-                    {
-                        "district_en": "Chuo ku",
-                        "district_ja": "中央区"
-                    },
-                    {
-                        "district_en": "Sakura ku",
-                        "district_ja": "桜区"
-                    },
-                    {
-                        "district_en": "Urawa ku",
-                        "district_ja": "浦和区"
-                    },
-                    {
-                        "district_en": "Minami ku",
-                        "district_ja": "南区"
-                    },
-                    {
-                        "district_en": "Midori ku",
-                        "district_ja": "緑区"
-                    },
-                    {
-                        "district_en": "Iwatsuki ku",
-                        "district_ja": "岩槻区"
-                    }
-                ]
+                "type_en": "SHI"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Nishi",
+                "city_ja": "西区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Kita",
+                "city_ja": "北区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Omiya",
+                "city_ja": "大宮区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minuma",
+                "city_ja": "見沼区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Chuo",
+                "city_ja": "中央区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Sakura",
+                "city_ja": "桜区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Urawa",
+                "city_ja": "浦和区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Minami",
+                "city_ja": "南区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Midori",
+                "city_ja": "緑区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
+            },
+            {
+                "city_en": "Iwatsuki",
+                "city_ja": "岩槻区",
+                "type_en": "KU"
             },
             {
                 "city_en": "Kawagoe",
                 "city_ja": "川越市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Kumagaya",
                 "city_ja": "熊谷市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Kawaguchi",
                 "city_ja": "川口市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Gyoda",
                 "city_ja": "行田市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Chichibu",
                 "city_ja": "秩父市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Tokorozawa",
                 "city_ja": "所沢市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Hanno",
                 "city_ja": "飯能市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Kazo",
                 "city_ja": "加須市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Honjo",
                 "city_ja": "本庄市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Higashimatsuyama",
                 "city_ja": "東松山市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Kasukabe",
                 "city_ja": "春日部市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Sayama",
                 "city_ja": "狭山市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Hanyu",
                 "city_ja": "羽生市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Konosu",
                 "city_ja": "鴻巣市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Fukaya",
                 "city_ja": "深谷市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Ageo",
                 "city_ja": "上尾市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Soka",
                 "city_ja": "草加市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Koshigaya",
                 "city_ja": "越谷市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Warabi",
                 "city_ja": "蕨市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Toda",
                 "city_ja": "戸田市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Iruma",
                 "city_ja": "入間市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Asaka",
                 "city_ja": "朝霞市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Shiki",
                 "city_ja": "志木市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Wako",
                 "city_ja": "和光市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Niiza",
                 "city_ja": "新座市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Okegawa",
                 "city_ja": "桶川市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Kuki",
                 "city_ja": "久喜市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Kitamoto",
                 "city_ja": "北本市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Yashio",
                 "city_ja": "八潮市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Fujimi",
                 "city_ja": "富士見市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Misato",
                 "city_ja": "三郷市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Hasuda",
                 "city_ja": "蓮田市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Sakado",
                 "city_ja": "坂戸市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Satte",
                 "city_ja": "幸手市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Tsurugashima",
                 "city_ja": "鶴ヶ島市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Hidaka",
                 "city_ja": "日高市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Yoshikawa",
                 "city_ja": "吉川市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Fujimino",
                 "city_ja": "ふじみ野市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Shiraoka",
                 "city_ja": "白岡市",
-                "type_en": "SHI",
-                "districts": []
+                "type_en": "SHI"
             },
             {
                 "city_en": "Kitaadachi ",
                 "city_ja": "北足立郡",
-                "type_en": "GUN",
-                "districts": []
+                "type_en": "GUN"
             },
             {
                 "city_en": "Iruma ",
                 "city_ja": "入間郡",
-                "type_en": "GUN",
-                "districts": []
+                "type_en": "GUN"
             },
             {
                 "city_en": "Hiki ",
                 "city_ja": "比企郡",
-                "type_en": "GUN",
-                "districts": []
+                "type_en": "GUN"
             },
             {
                 "city_en": "Chichibu ",
                 "city_ja": "秩父郡",
-                "type_en": "GUN",
-                "districts": []
+                "type_en": "GUN"
             },
             {
                 "city_en": "Kodama ",
                 "city_ja": "児玉郡",
-                "type_en": "GUN",
-                "districts": []
+                "type_en": "GUN"
             },
             {
                 "city_en": "Osato ",
                 "city_ja": "大里郡",
-                "type_en": "GUN",
-                "districts": []
+                "type_en": "GUN"
             },
             {
                 "city_en": "Minamisaitama ",
                 "city_ja": "南埼玉郡",
-                "type_en": "GUN",
-                "districts": []
+                "type_en": "GUN"
             },
             {
                 "city_en": "Kitakatsushika ",
                 "city_ja": "北葛飾郡",
-                "type_en": "GUN",
-                "districts": []
+                "type_en": "GUN"
             }
         ]
     }

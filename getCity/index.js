@@ -87,26 +87,38 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
                 city_en: item.city_en,
                 city_ja: item.city_jp,
                 type_en: item.city_type_en,
-                districts: []
+                // districts: []
             })
         }
         // allow only 'ku' and not 'mura'
         if(item.district_en && new RegExp(/(?= ku)/gi).test(item.district_en)){
-            if(city_prefecture[item.prefecture_en].cities.find(elem => elem.city_en == item.city_en).districts.findIndex(elem => elem.district_en == item.district_en) < 0){
+
+            //treat districts (ku) as cities
+            if(city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.district_en) < 0){
+            // if(city_prefecture[item.prefecture_en].cities.find(elem => elem.city_en == item.city_en).districts.findIndex(elem => elem.district_en == item.district_en) < 0){
                 //push to cities
                 cities.push({
-                    "city_en": item.city_en,
+                    "city_en": item.district_en.split(' ')[0],
                     "prefecture_en": item.prefecture_en,
-                    "city_full_en": item.city_en.split(' ')[0] + '-' + item.city_type_en.toLowerCase(),
+                    "city_full_en": item.district_en.replace(' ', '-'),
                     "city_ja": item.city_jp,
                     "city_ja_full": item.city_jp
                 })
 
-                let index = city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.city_en);
-                city_prefecture[item.prefecture_en].cities[index].districts.push({
-                    district_en: item.district_en,
-                    district_ja: item.district_jp
+                // let index = city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.city_en);
+                // city_prefecture[item.prefecture_en].cities[index].districts.push({
+                //     district_en: item.district_en,
+                //     district_ja: item.district_jp
+                // })
+
+                //push to city_prefecture
+                city_prefecture[item.prefecture_en].cities.push({
+                    city_en: item.district_en.split(' ')[0],
+                    city_ja: item.district_jp,
+                    type_en: "KU",
+                    // districts: []
                 })
+
             }
         }
     }
