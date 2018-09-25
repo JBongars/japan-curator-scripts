@@ -5,7 +5,7 @@
         "cities": [
             {
                 "city_en": "Saitama",
-                "city_ja": "さいたま市　西区",
+                "city_ja": "さいたま市",
                 "type_en": "SHI",
                 "districts": [
                     {
@@ -286,49 +286,49 @@
             },
             {
                 "city_en": "Kitaadachi ",
-                "city_ja": "北足立郡　伊奈町",
+                "city_ja": "北足立郡",
                 "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Iruma ",
-                "city_ja": "入間郡　三芳町",
+                "city_ja": "入間郡",
                 "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Hiki ",
-                "city_ja": "比企郡　滑川町",
+                "city_ja": "比企郡",
                 "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Chichibu ",
-                "city_ja": "秩父郡　横瀬町",
+                "city_ja": "秩父郡",
                 "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Kodama ",
-                "city_ja": "児玉郡　美里町",
+                "city_ja": "児玉郡",
                 "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Osato ",
-                "city_ja": "大里郡　寄居町",
+                "city_ja": "大里郡",
                 "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Minamisaitama ",
-                "city_ja": "南埼玉郡　宮代町",
+                "city_ja": "南埼玉郡",
                 "type_en": "GUN",
                 "districts": []
             },
             {
                 "city_en": "Kitakatsushika ",
-                "city_ja": "北葛飾郡　杉戸町",
+                "city_ja": "北葛飾郡",
                 "type_en": "GUN",
                 "districts": []
             }

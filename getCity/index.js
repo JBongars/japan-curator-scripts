@@ -39,7 +39,7 @@ let matchStr = (s, reg) => Array.isArray(s.match(reg)) ? s.match(reg)[0] : "";
 
 let city_prefecture = {};
 let postal_code = [];
-
+let cities = [];
 
 getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
 
@@ -57,7 +57,7 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
 
         //japanese
         prefecture_jp: data.prefecture_jp || "",
-        city_jp: data.city_district_jp.split(' ')[0],
+        city_jp: data.city_district_jp.split('　')[0],
         district_jp: data.city_district_jp.split('　')[1] || "",
         // township_jp: data.township_jp || ""
     }
@@ -70,8 +70,19 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
         }
     }
 
+    //if city exists
     if(item.city_en){
+        //if city is not already recorded
         if(city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.city_en) < 0){
+            //push to cities
+            cities.push({
+                "city_en": item.city_en,
+                "prefecture_en": item.prefecture_en,
+                "city_full_en": item.city_en.split(' ')[0] + '-' + item.city_type_en.toLowerCase(),
+                "city_ja": item.city_jp,
+                "city_ja_full": item.city_jp
+            })
+            //push to city_prefecture
             city_prefecture[item.prefecture_en].cities.push({
                 city_en: item.city_en,
                 city_ja: item.city_jp,
@@ -82,6 +93,15 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
         // allow only 'ku' and not 'mura'
         if(item.district_en && new RegExp(/(?= ku)/gi).test(item.district_en)){
             if(city_prefecture[item.prefecture_en].cities.find(elem => elem.city_en == item.city_en).districts.findIndex(elem => elem.district_en == item.district_en) < 0){
+                //push to cities
+                cities.push({
+                    "city_en": item.city_en,
+                    "prefecture_en": item.prefecture_en,
+                    "city_full_en": item.city_en.split(' ')[0] + '-' + item.city_type_en.toLowerCase(),
+                    "city_ja": item.city_jp,
+                    "city_ja_full": item.city_jp
+                })
+
                 let index = city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.city_en);
                 city_prefecture[item.prefecture_en].cities[index].districts.push({
                     district_en: item.district_en,
@@ -97,9 +117,11 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
 }).then(() => {
     Promise.all([
         saveJSON('./getCity/city_prefecture.json', city_prefecture),
-        saveJSON('./getCity/city_prefecture_sample.json', sliceObj(city_prefecture, 10, 11), true),
-        saveJSON('./getCity/city_prefecture_tokyo.json', city_prefecture['Tokyo'], true),
+        saveJSON('./getCity/cities.json', cities),
         saveJSON('./getCity/postal_code.json', postal_code),
+        saveJSON('./getCity/sample/cities_sample.json', cities.slice(0,10), true),
+        saveJSON('./getCity/sample/city_prefecture_sample.json', sliceObj(city_prefecture, 10, 11), true),
+        saveJSON('./getCity/sample/city_prefecture_tokyo.json', city_prefecture['Tokyo'], true),
 
     ]).then(() => {
         console.log('done!');
