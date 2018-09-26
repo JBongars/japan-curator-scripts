@@ -34,7 +34,7 @@ let sliceObj = (obj, start=0, end=false) => {
 
 let capFirstLetter = s => s.charAt(0).toUpperCase() + s.substr(1).toLowerCase();
 let compareString = (a, b) => sterilizeString(a) == sterilizeString(b);
-let matchStr = (s, reg) => Array.isArray(s.match(reg)) ? s.match(reg) : "";
+let matchStr = (s, reg) => Array.isArray(s.match(reg)) ? s.match(reg) : [];
 
 
 let city_prefecture = {};
