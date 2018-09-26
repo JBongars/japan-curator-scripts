@@ -3,138 +3,203 @@
     "jp": "東京都",
     "cities": [
         {
+            "city_en": "Chiyoda",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Chuo",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Minato",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Shinjuku",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Bunkyo",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Taito",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Sumida",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Koto",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Shinagawa",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Meguro",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Ota",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Setagaya",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Shibuya",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Nakano",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Suginami",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Toshima",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Kita",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Arakawa",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Itabashi",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Nerima",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Adachi",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Katsushika",
+            "type_en": "KU"
+        },
+        {
+            "city_en": "Edogawa",
+            "type_en": "KU"
+        },
+        {
             "city_en": "Hachioji",
-            "city_ja": "八王子市",
             "type_en": "SHI"
         },
         {
             "city_en": "Tachikawa",
-            "city_ja": "立川市",
             "type_en": "SHI"
         },
         {
             "city_en": "Musashino",
-            "city_ja": "武蔵野市",
             "type_en": "SHI"
         },
         {
             "city_en": "Mitaka",
-            "city_ja": "三鷹市",
             "type_en": "SHI"
         },
         {
             "city_en": "Ome",
-            "city_ja": "青梅市",
             "type_en": "SHI"
         },
         {
             "city_en": "Fuchu",
-            "city_ja": "府中市",
             "type_en": "SHI"
         },
         {
             "city_en": "Akishima",
-            "city_ja": "昭島市",
             "type_en": "SHI"
         },
         {
             "city_en": "Chofu",
-            "city_ja": "調布市",
             "type_en": "SHI"
         },
         {
             "city_en": "Machida",
-            "city_ja": "町田市",
             "type_en": "SHI"
         },
         {
             "city_en": "Koganei",
-            "city_ja": "小金井市",
             "type_en": "SHI"
         },
         {
             "city_en": "Kodaira",
-            "city_ja": "小平市",
             "type_en": "SHI"
         },
         {
             "city_en": "Hino",
-            "city_ja": "日野市",
             "type_en": "SHI"
         },
         {
             "city_en": "Higashimurayama",
-            "city_ja": "東村山市",
             "type_en": "SHI"
         },
         {
             "city_en": "Kokubunji",
-            "city_ja": "国分寺市",
             "type_en": "SHI"
         },
         {
             "city_en": "Kunitachi",
-            "city_ja": "国立市",
             "type_en": "SHI"
         },
         {
             "city_en": "Fussa",
-            "city_ja": "福生市",
             "type_en": "SHI"
         },
         {
             "city_en": "Komae",
-            "city_ja": "狛江市",
             "type_en": "SHI"
         },
         {
             "city_en": "Higashiyamato",
-            "city_ja": "東大和市",
             "type_en": "SHI"
         },
         {
             "city_en": "Kiyose",
-            "city_ja": "清瀬市",
             "type_en": "SHI"
         },
         {
             "city_en": "Higashikurume",
-            "city_ja": "東久留米市",
             "type_en": "SHI"
         },
         {
             "city_en": "Musashimurayama",
-            "city_ja": "武蔵村山市",
             "type_en": "SHI"
         },
         {
             "city_en": "Tama",
-            "city_ja": "多摩市",
             "type_en": "SHI"
         },
         {
             "city_en": "Inagi",
-            "city_ja": "稲城市",
             "type_en": "SHI"
         },
         {
             "city_en": "Hamura",
-            "city_ja": "羽村市",
             "type_en": "SHI"
         },
         {
             "city_en": "Akiruno",
-            "city_ja": "あきる野市",
             "type_en": "SHI"
         },
         {
             "city_en": "Nishitokyo",
-            "city_ja": "西東京市",
             "type_en": "SHI"
         },
         {
-            "city_en": "Nishitama ",
-            "city_ja": "西多摩郡",
+            "city_en": "Nishitama",
             "type_en": "GUN"
         }
     ]

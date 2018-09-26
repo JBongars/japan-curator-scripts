@@ -1,72 +1,62 @@
 [
     {
         "city_en": "Sapporo",
-        "prefecture_en": "Hokkaido",
-        "city_full_en": "Sapporo-shi",
-        "city_ja": "札幌市",
-        "city_ja_full": "札幌市"
+        "city_full_en": "Sapporo shi",
+        "city_type_en": "SHI",
+        "city_ja": "札幌市"
     },
     {
-        "city_en": "Chuo",
-        "prefecture_en": "Hokkaido",
-        "city_full_en": "Chuo-ku",
-        "city_ja": "札幌市",
-        "city_ja_full": "札幌市"
+        "city_en": "Hakodate",
+        "city_full_en": "Hakodate shi",
+        "city_type_en": "SHI",
+        "city_ja": "函館市"
     },
     {
-        "city_en": "Chuo",
-        "prefecture_en": "Hokkaido",
-        "city_full_en": "Chuo-ku",
-        "city_ja": "札幌市",
-        "city_ja_full": "札幌市"
+        "city_en": "Otaru",
+        "city_full_en": "Otaru shi",
+        "city_type_en": "SHI",
+        "city_ja": "小樽市"
     },
     {
-        "city_en": "Chuo",
-        "prefecture_en": "Hokkaido",
-        "city_full_en": "Chuo-ku",
-        "city_ja": "札幌市",
-        "city_ja_full": "札幌市"
+        "city_en": "Asahikawa",
+        "city_full_en": "Asahikawa shi",
+        "city_type_en": "SHI",
+        "city_ja": "旭川市"
     },
     {
-        "city_en": "Chuo",
-        "prefecture_en": "Hokkaido",
-        "city_full_en": "Chuo-ku",
-        "city_ja": "札幌市",
-        "city_ja_full": "札幌市"
+        "city_en": "Muroran",
+        "city_full_en": "Muroran shi",
+        "city_type_en": "SHI",
+        "city_ja": "室蘭市"
     },
     {
-        "city_en": "Chuo",
-        "prefecture_en": "Hokkaido",
-        "city_full_en": "Chuo-ku",
-        "city_ja": "札幌市",
-        "city_ja_full": "札幌市"
+        "city_en": "Kushiro",
+        "city_full_en": "Kushiro shi",
+        "city_type_en": "SHI",
+        "city_ja": "釧路市"
     },
     {
-        "city_en": "Chuo",
-        "prefecture_en": "Hokkaido",
-        "city_full_en": "Chuo-ku",
-        "city_ja": "札幌市",
-        "city_ja_full": "札幌市"
+        "city_en": "Obihiro",
+        "city_full_en": "Obihiro shi",
+        "city_type_en": "SHI",
+        "city_ja": "帯広市"
     },
     {
-        "city_en": "Chuo",
-        "prefecture_en": "Hokkaido",
-        "city_full_en": "Chuo-ku",
-        "city_ja": "札幌市",
-        "city_ja_full": "札幌市"
+        "city_en": "Kitami",
+        "city_full_en": "Kitami shi",
+        "city_type_en": "SHI",
+        "city_ja": "北見市"
     },
     {
-        "city_en": "Chuo",
-        "prefecture_en": "Hokkaido",
-        "city_full_en": "Chuo-ku",
-        "city_ja": "札幌市",
-        "city_ja_full": "札幌市"
+        "city_en": "Yubari",
+        "city_full_en": "Yubari shi",
+        "city_type_en": "SHI",
+        "city_ja": "夕張市"
     },
     {
-        "city_en": "Chuo",
-        "prefecture_en": "Hokkaido",
-        "city_full_en": "Chuo-ku",
-        "city_ja": "札幌市",
-        "city_ja_full": "札幌市"
+        "city_en": "Iwamizawa",
+        "city_full_en": "Iwamizawa shi",
+        "city_type_en": "SHI",
+        "city_ja": "岩見沢市"
     }
 ]

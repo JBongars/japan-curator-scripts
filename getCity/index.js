@@ -34,7 +34,7 @@ let sliceObj = (obj, start=0, end=false) => {
 
 let capFirstLetter = s => s.charAt(0).toUpperCase() + s.substr(1).toLowerCase();
 let compareString = (a, b) => sterilizeString(a) == sterilizeString(b);
-let matchStr = (s, reg) => Array.isArray(s.match(reg)) ? s.match(reg)[0] : "";
+let matchStr = (s, reg) => Array.isArray(s.match(reg)) ? s.match(reg) : "";
 
 
 let city_prefecture = {};
@@ -50,18 +50,18 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
         
         //english
         prefecture_en: capFirstLetter(data.prefecture_en.split(' ')[0] || ""),
-        city_en: capFirstLetter(matchStr(data.city_district_en, /.*(?= SHI|GUN)/gi)),
-        city_type_en: data.city_district_en.split(' ')[1].toUpperCase(),
-        district_en: capFirstLetter(data.city_district_en.split(' ').splice(2).join(' ')),
-        // township_en: capFirstLetter(data.township_en || ""),
+        cities_en: matchStr(data.city_district_en, /[\w]+ (SHI|GUN|KU)/gi),
 
         //japanese
         prefecture_jp: data.prefecture_jp || "",
-        city_jp: data.city_district_jp.split('　')[0],
-        district_jp: data.city_district_jp.split('　')[1] || "",
-        // township_jp: data.township_jp || ""
+        // \u3000 = japanese space
+        cities_jp: matchStr(data.city_district_jp, /([\u3001-\u303F]|[\u3040-\u309F]|[\u30A0-\u30FF]|[\uFF00-\uFFEF]|[\u4E00-\u9FAF]|[\u2190-\u2195]|\u203B)+(市|郡|区)/g),
+
     }
 
+    item.cities = [];
+
+    // create prefecture
     if(Object.keys(city_prefecture).findIndex(elem => elem == item.prefecture_en) < 0){
         city_prefecture[item.prefecture_en] = {
             en: item.prefecture_en,
@@ -69,57 +69,40 @@ getCSV(path.join(__dirname, "../jp_postal_codes.csv"), data => {
             cities: []
         }
     }
+    
+    // get item.cities
+    for(let i = 0; i < item.cities_en.length; i++){
+        item.cities.push({
+            city_en: capFirstLetter(item.cities_en[i].split(' ')[0]),
+            city_full_en: capFirstLetter(item.cities_en[i]),
+            city_type_en: item.cities_en[i].split(' ')[1].toUpperCase(),
+            city_ja: item.cities_jp[i]
+        })
+    }
 
-    //if city exists
-    if(item.city_en){
-        //if city is not already recorded
-        if(city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.city_en) < 0){
-            //push to cities
-            cities.push({
-                "city_en": item.city_en,
-                "prefecture_en": item.prefecture_en,
-                "city_full_en": item.city_en.split(' ')[0] + '-' + item.city_type_en.toLowerCase(),
-                "city_ja": item.city_jp,
-                "city_ja_full": item.city_jp
-            })
+    if(item.cities.length > 1 && new RegExp(/(SHI|GUN|KU)/gi).test(item.cities[0].city_type_en)){
+        // console.log('rejected city is: ', item.cities);
+        item.cities.pop(); // remove the second city if the first city is a 'SHI', 'GUN' or 'KU'
+    }
+
+    // upload cities in item.cities
+    for(let i = 0; i < item.cities.length; i++){
+        // if(cities.findIndex(elem => elem.city_en == item.cities[i].city_en) < 0){
+            
+        // }
+
+        if(city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.cities[i].city_en) < 0){
+            
+            cities.push(item.cities[i]);
+
             //push to city_prefecture
             city_prefecture[item.prefecture_en].cities.push({
-                city_en: item.city_en,
-                city_ja: item.city_jp,
-                type_en: item.city_type_en,
+                city_en: item.cities[i].city_en,
+                city_ja: item.cities[i].city_jp,
+                type_en: item.cities[i].city_type_en,
                 // districts: []
             })
-        }
-        // allow only 'ku' and not 'mura'
-        if(item.district_en && new RegExp(/(?= ku)/gi).test(item.district_en)){
 
-            //treat districts (ku) as cities
-            if(city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.district_en) < 0){
-            // if(city_prefecture[item.prefecture_en].cities.find(elem => elem.city_en == item.city_en).districts.findIndex(elem => elem.district_en == item.district_en) < 0){
-                //push to cities
-                cities.push({
-                    "city_en": item.district_en.split(' ')[0],
-                    "prefecture_en": item.prefecture_en,
-                    "city_full_en": item.district_en.replace(' ', '-'),
-                    "city_ja": item.city_jp,
-                    "city_ja_full": item.city_jp
-                })
-
-                // let index = city_prefecture[item.prefecture_en].cities.findIndex(elem => elem.city_en == item.city_en);
-                // city_prefecture[item.prefecture_en].cities[index].districts.push({
-                //     district_en: item.district_en,
-                //     district_ja: item.district_jp
-                // })
-
-                //push to city_prefecture
-                city_prefecture[item.prefecture_en].cities.push({
-                    city_en: item.district_en.split(' ')[0],
-                    city_ja: item.district_jp,
-                    type_en: "KU",
-                    // districts: []
-                })
-
-            }
         }
     }
 
